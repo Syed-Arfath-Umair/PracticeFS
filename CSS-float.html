@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float</title>
+    <style>
+        div{
+            width: 40%;
+            display: inline-block;
+        }
+        p{
+            font-size: 2em;
+        }
+        .cat{
+            float: left;
+            background-color: aquamarine;
+        }
+        .cat img{
+            float: left;
+        }
+        .dog img{
+            float:right
+        }
+        .dog{
+            float: right;
+            background-color: coral;
+        }
+        footer{
+            text-align: center;
+            clear: both;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <h2>Cat CSS</h2>
+        <img src="cat.jfif" alt="cat image">
+        <p class="first-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima repudiandae maxime.
+        Lorem, ipsum dolor.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt porro?
+        Lorem ipsum dolor sit.
+        </p>
+    </div>
+    <div class="dog">
+        <h2>Dog CSS</h2>
+        <img src="dog.jfif" alt="dog image">
+        <p class="second-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima repudiandae maxime.
+            Lorem, ipsum dolor.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt porro?
+            Lorem ipsum dolor sit.
+        </p>
+    </div>
+    <footer>Copyright SAU-Labs</footer>
+</body>
+</html>
