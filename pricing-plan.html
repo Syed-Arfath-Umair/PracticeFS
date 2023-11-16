@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan</title>
+    <style>
+        body{
+            font-family: 'Sono',sans-serif;
+        }
+        .pricing-container{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            margin-left: -40px;
+        }
+        .price-title, .plan-price{
+            font-size: x-large;
+            text-align: center;
+            font-weight: bold;
+        }
+        .plan-price{
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .pricing-plan{
+            flex-shrink: 0;
+            flex-grow: 0;
+            border-radius: 5px;
+            flex: 1;
+            text-align: center;
+            max-width: max-content;
+            padding: 20px;
+            background-color: grey;
+        }
+        button{
+            border-radius: 11%;
+            background-color: orange;
+            font-weight: bolder;
+            padding: 3px;
+        }
+        @media (max-width: 1250px){
+            .pricing-container{
+                flex-direction: column;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <div class="pricing-plan">
+            <div class="price-title">Basic</div>
+            <div class="plan-price">9.99$/Month</div>
+            <ul class="plan-feature">
+                <li>10GB Storage</li>
+                <li>1 Devices</li>
+                <li>NO VIP Service</li>
+            </ul>
+            <button class="plan-button">Sign Up</button>
+        </div>
+        <div class="pricing-plan">
+            <div class="price-title">Standard</div>
+            <div class="plan-price">14.99$/Month</div>
+            <ul class="plan-feature">
+                <li>20GB Storage</li>
+                <li>3 Devices</li>
+                <li>NO VIP Service</li>
+            </ul>
+            <button class="plan-button">Sign Up</button>
+        </div>
+        <div class="pricing-plan">
+            <div class="price-title">Premium</div>
+            <div class="plan-price">19.99$/Month</div>
+            <ul class="plan-features">
+                <li>30GB Storage</li>
+                <li>5 Devices</li>
+                <li>VIP Services</li>
+            </ul>
+            <button class="plan-button">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
