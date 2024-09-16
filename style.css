@@ -1,0 +1,49 @@
+form {
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+#search-txt {
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    margin-bottom: 30px;
+    font-size: medium;
+    text-align: center;
+}
+
+#adv {
+    text-align: left;
+}
+
+form input {
+    margin-bottom: 30px;
+}
+
+#but {
+    height: 50px;
+    font-size: medium;
+    padding: 9px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+ul li {
+    display: inline;
+    margin-left: 10px;
+    color: rgb(10, 10, 10);
+}
+
+li:hover {
+    color: rgb(173, 192, 228);
+}
+
